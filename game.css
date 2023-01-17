@@ -1,0 +1,117 @@
+﻿body {
+background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+canvas{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 1em;
+}
+#wrapper {
+  width: auto;
+  height: auto;
+}
+#gameCanvas {
+  width: 900px;
+}
+#gameInfo {
+  width: 400px;
+  text-align: center;
+  background-color: rgba(255,255, 255, 0.5);
+  height: 600px;
+  float: right;
+  padding-right: 20px;
+  border-radius: 1em;
+  margin-left: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#scoreDisplay{
+	font-size: 2em;
+	color: red;
+}
+#copyright {
+	margin-top: 250px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: small;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: red;
+}
+/*start of hr*/
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  margin-left: 5px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+/*End of hr*/
+/*start of button css*/
+.button {
+	box-shadow: 5px 5px 5px gray;
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #009900;
+	border: none;
+	color: #FFCD40;
+	text-align: center;
+	font-size: 16px;
+	padding: 18px;
+	width: 300px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.button:hover {
+  background-color: #f1c40f;
+  color: black;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*End of button*/
+    h1 {
+	color: red;
+}
+#scoreContainer {
+	color: red;
+	font-size: medium;
+}
+    

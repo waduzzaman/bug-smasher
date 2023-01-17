@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content=" Md Mahbub E Waduzzaman -- March 28, 2021">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bug Smasher Canvas Game</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel=icon href="images/bug.png" sizes="16x16" type="images/png">
+        <link href="game.css" rel="stylesheet" type="text/css">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    	<style type="text/css">
+</style>
+    </head>
+
+    <body>
+        <div id="gameInfo">
+                <h1 id="title">Bug Smasher</h1>
+                <div id="scoreContainer">
+                    <p id="scoreDisplay">
+                    <span id="scoreResult"></span>
+                    </p>
+                </div>
+                <hr />
+                <button class="button" id="resetSpeed" style="vertical-align:middle"  onclick="resetSpeed()"><span>Reset Speed</span></button><br />
+                <button class="button" id="resetScore" style="vertical-align:middle"  onclick="resetScore()"><span>Reset Score</span></button><br />
+                <p id="copyright">&copy; Md Mahbub E Waduzzaman </p>
+                <p> <strong><a href="../index.html">Homepage</a></strong> </p>
+            </div>
+             <script src="game.js"></script>
+    </body>
+</html>
